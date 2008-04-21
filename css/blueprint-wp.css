@@ -39,7 +39,7 @@ textarea		{ height: 200px; width: 500px;}
 a.button, button { font-weight: normal; }
 p { text-align: left;}
 
-pre { font-family: Andale Mono, Courier New, monospace; background-color: #eee; margin:0; padding:5px;}
+pre { font-family: Andale Mono, Courier New, monospace; background-color: #000; color:fff; margin:0; padding:5px;}
 
 h3, h3 a {
 	font-size: 1.3em;
@@ -204,4 +204,14 @@ h1,h2,h3,h4,h5,h6 { color: #0f0; font-family: Andale Mono, Courier New, monospac
   font-size: 1.2em;
   color: #cfc;
 }
-.wp_syntax pre { font-size: 0.7em;}
+.wp_syntax pre { font-size: 0.8em; border:none;}
+
+/*********** wp-syntax-plugin overrider **********/
+
+.wp_syntax .kw1,.wp_syntax .kw2,.wp_syntax .kw3,.wp_syntax .kw4 { color:#0f0;}
+.wp_syntax .co0,.wp_syntax .co1,.wp_syntax .co2,.wp_syntax .coMULTI { color:#080;}
+.wp_syntax .st0 { color:#8f8;}
+.wp_syntax .br0, .wp_syntax .br1, .wp_syntax .br2 { color:#ff8;}
+.wp_syntax .re0, .wp_syntax .re1, .wp_syntax .re2 { color:#ff8;}
+.wp_syntax .me0, .wp_syntax .me1, .wp_syntax .me2 { color:#8ff;}
+.wp_syntax .sy0, .wp_syntax .sy1, .wp_syntax .sy2 { color:#f8f;}
